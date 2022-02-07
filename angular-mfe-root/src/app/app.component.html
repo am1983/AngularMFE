@@ -1,0 +1,4 @@
+<angular-sub-mfe-user *axLazyElement="elementUrlUser; errorTemplate: error" [dataFromConsumingApp]="dataToSend"
+  (dataToReturnToConsumingApp)="dump($event)">
+</angular-sub-mfe-user>
+<ng-template #error>Loading MFE Failed.</ng-template>
